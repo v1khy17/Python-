@@ -1,0 +1,26 @@
+#.  TASK 1
+
+#get the integer from user 
+'''
+num = int(input("Enter the integer: "))
+
+#check if number is even or odd 
+if num % 2 == 0 :
+    print (f"{num} is even")    
+else:
+     print (f"{num} is odd")
+     '''
+   
+   
+   
+# TASK 2   
+     
+# Initialize sum
+total_sum = 0
+
+# Iterate over numbers from 1 to 50
+for num in range(1,51):
+  total_sum += num
+ #Display the results 
+  print( f"the sum of the numbers from 1 to 50 is is : {total_sum}" )
+
