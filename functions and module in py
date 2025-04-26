@@ -1,0 +1,37 @@
+
+
+'''
+def factorial(n):
+    # Handle edge cases
+    if n < 0:
+        return "Factorial is not defined for negative numbers"
+    if n == 0 or n == 1:
+        return 1
+    
+    # Calculate factorial using a loop
+    result = 1
+    for i in range(2, n + 1):
+        result *= i
+    return result
+
+# Test the function with a sample number
+number = 5
+print(f"Factorial of {number} is: {factorial(number)}")
+
+'''
+
+
+import math
+
+# Using the input number 25
+number = 25
+
+# Calculate mathematical functions
+sqrt_result = math.sqrt(number) if number >= 0 else "Cannot calculate square root of negative number"
+log_result = math.log(number) if number > 0 else "Cannot calculate logarithm of non-positive number"
+sine_result = math.sin(number)
+
+# Display results
+print(f"Square root of {number}: {sqrt_result}")
+print(f"Natural logarithm of {number}: {log_result}")
+print(f"Sine of {number} radians: {sine_result}")
